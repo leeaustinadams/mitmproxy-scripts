@@ -6,6 +6,6 @@ A collection of scripts for [mitmproxy](https://mitmproxy.org)
 
 # examples #
 
-[BodyPatch](samples/patch.json)
+[BodyPatch](examples/patch.json)
 
 	$ mitmproxy --listen-port 8888 -s ./8/bodypatch.py --set "bodypatch_file=./samples/patch.json" --set "bodypatch_request_path=http://host/path/data.json"
